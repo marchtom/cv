@@ -85,8 +85,14 @@ a {
   color: inherit;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+}
 
+div.main-content a:link {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: underline;
+}
 
 p {
   margin-bottom: 1.5em; }
@@ -518,12 +524,25 @@ Page Styles
 
 .timeline-section ul {
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-bottom: #bababa50 1px solid;
 }
 
 .timeline-section ul li {
   padding-left: 15px;
+}
+
+.timeline-section ul li.description {
+  padding-bottom: 5px;
+}
+
+ul.hobbies li {
+  padding-bottom: 15px;
+}
+
+ul.hobbies h4 {
+  padding-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .pr-list {
